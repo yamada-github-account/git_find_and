@@ -15,10 +15,12 @@ fi
   #+END_SRC
 
 * Usage
-  git_find_and [cmd [query]]
+  #+BEGIN_SRC sh
+git_find_and [cmd [query]]
+  #+END_SRC
 
-  cmd  : git command. Default value is "show"
-  query: Initial query passed to peco
+  - cmd  : git command. Default value is "show"
+  - query: Initial query passed to peco
 
 * Write clearer commit message
   Now it become more important to write meaningful first line in your commit message :-)
